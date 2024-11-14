@@ -237,25 +237,25 @@ public class Ch07 {
 //	      }
         
         
-		Scanner sc = new Scanner(System.in);
+//		Scanner sc = new Scanner(System.in);
 	    // 05 else - if 
 	    // 다중분기
-	       System.out.println("--------------- else-if문 예제 01 ---------------");
-	       System.out.print("나이 입력 : >>> ");
-	       int age = sc.nextInt();
-
-	       if (age >= 20) {
-	           System.out.println("성인입니다.");
-	       } else if (age >= 8) {
-	           System.out.println("취학 아동입니다.");
-	       } else {
-	           System.out.println("미취학 아동입니다.");
-	       }
-        
-        
-        
-        
-        
+//	       System.out.println("--------------- else-if문 예제 01 ---------------");
+//	       System.out.print("나이 입력 : >>> ");
+//	       int age = sc.nextInt();
+//
+//	       if (age >= 20) {
+//	           System.out.println("성인입니다.");
+//	       } else if (age >= 8) {
+//	           System.out.println("취학 아동입니다.");
+//	       } else {
+//	           System.out.println("미취학 아동입니다.");
+//	       }
+//        
+//        
+//        
+//        
+//        
         
         
         
