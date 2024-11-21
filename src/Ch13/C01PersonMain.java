@@ -4,8 +4,6 @@ public class C01PersonMain {
 	
 	public static void main(String[] args) {
 		
-		
-		
 		C01Person hong = new C01Person();
 		hong.name = "홍길동";
 		hong.age = 35;
