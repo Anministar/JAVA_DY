@@ -17,9 +17,11 @@ public class C04PersonMain {
     // 1. 생성자 함수는 클래스 이름과 반드시 동일해야함.
     // 2. 클래스와 동일하게 반환 타입(반환 자료형)이 없음.
 	
-	// 생성자(Constructor)
+	// 디폴트 생성자(Constructor)
 	public C04PersonMain() {
 		System.out.println("default 생성자입니다.");
+		name = "기본 이름";
+		age = 1;
 	}
 	
 	 // ### 인수(argument)와 매개변수(parameter) ###
@@ -40,7 +42,27 @@ public class C04PersonMain {
 		this.name = name;
 		this.age = age;
 	}
+		
 	
+	// 기능 (메서드) 선언
+	public void greet() {
+		System.out.println( "안녕하세요, 제 이름은 " + name + "이고, 나이는 " + age + "살입니다.");
+	}
+	
+	
+	public static void main(String[] args) {
+		C04PersonMain person1 = new C04PersonMain("John", 25);		// 매개변수 생성자에 인수 두 개 전달
+		C04PersonMain person2 = new C04PersonMain();
+		
+		person2.name = "Jane";
+		person2.age = 30;
+		
+		person1.greet();
+		person2.greet();
+	
+		
+		
+	}
 	
 	
 
